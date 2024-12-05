@@ -1,6 +1,6 @@
 import { collection, addDoc, deleteDoc, doc, getDocs } from 'firebase/firestore';
-import { db } from './firebase-config.js';
-import { scheduleNotification } from './notifications.js';
+import { db } from 'firebase-config.js';
+import { scheduleNotification } from 'notifications.js';
 
 export async function addTask(task, dateTime) {
   try {
