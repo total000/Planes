@@ -1,5 +1,5 @@
-import { loadSettings } from './notificationSettings.js';
-import { playNotificationSound } from './soundManager.js';
+import { loadSettings } from 'notificationSettings.js';
+import { playNotificationSound } from 'soundManager.js';
 
 export function requestNotificationPermission() {
   if ('Notification' in window) {
