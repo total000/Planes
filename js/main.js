@@ -1,7 +1,7 @@
-import { requestNotificationPermission } from './notifications.js';
-import { addTask, deleteTask, loadTasks } from './taskManager.js';
-import { loadSettings, saveSettings as saveSettingsToStorage } from './notificationSettings.js';
-import { playNotificationSound } from './soundManager.js';
+import { requestNotificationPermission } from 'notifications.js';
+import { addTask, deleteTask, loadTasks } from 'taskManager.js';
+import { loadSettings, saveSettings as saveSettingsToStorage } from 'notificationSettings.js';
+import { playNotificationSound } from 'soundManager.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   requestNotificationPermission();
